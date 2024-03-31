@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header, nav, main, footer {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+}
+header img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 10px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header, nav, main, footer {
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+}
+header img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 10px 0;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+}
+/* Navbar stilleri */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+nav ul li a.active {
+    background-color: #fff;
+    color: #333;
+}
+
+.homeImage{
+	width: 100%;
+	max-width: 700px;
+	display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
